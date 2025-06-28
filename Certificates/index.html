@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificates - Akanksha Gophane</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    .certificates-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 100px 20px 50px;
+    }
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .cert-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .cert-card:hover {
+      transform: translateY(-5px);
+    }
+    .cert-image {
+      width: 100%;
+      height: 200px;
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #e67e22;
+      font-size: 3rem;
+    }
+    .cert-content {
+      padding: 20px;
+    }
+    .cert-title {
+      font-size: 1.3rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    .pdf-link {
+      margin-top: 10px;
+      display: block;
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .pdf-link:hover {
+      text-decoration: underline;
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #3498db;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+      margin-bottom: 30px;
+      transition: background 0.3s ease;
+    }
+    .back-btn:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <div class="certificates-container">
+    <a href="../index.html" class="back-btn">
+      <i class="fas fa-arrow-left"></i>
+      Back to Portfolio
+    </a>
+
+    <h1 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">My Certificates</h1>
+    <p style="text-align: center; color: #666; margin-bottom: 40px;">Professional certifications and achievements</p>
+
+    <div class="cert-grid">
+
+      <!-- Certificate 1 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fas fa-shield-alt"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">Cybersecurity and Ethical Hacking</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fas fa-code"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">Cyber Threat Hunting</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fab fa-python"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">Microsoft Power BI</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fas fa-database"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">Artificial Intelligence</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fab fa-java"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">Java Programming</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+      <!-- Certificate 6 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fas fa-code"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">Python Programming</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+      <!-- Certificate 7 -->
+      <div class="cert-card">
+        <div class="cert-image"><i class="fab fa-aws"></i></div>
+        <div class="cert-content">
+          <h3 class="cert-title">AWS Cloud Fundamentals</h3>
+          <a class="pdf-link" href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/preview" target="_blank">View PDF Certificate</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 50px; padding: 30px; background: #f8f9fa; border-radius: 15px;">
+      <!-- Optional footer or message -->
+    </div>
+  </div>
+</body>
+</html>
